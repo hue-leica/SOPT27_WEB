@@ -51,7 +51,7 @@ const getRepos = async (username) => {
   const responseData = await response.json();
 
   addReposToCard(responseData);
-};
+};  
 
 const getUser = async (username) => {
   const response = await fetch(API_URL + username);
