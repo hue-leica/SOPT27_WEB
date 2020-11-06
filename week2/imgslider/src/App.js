@@ -34,7 +34,7 @@ function App() {
       <DialogButton onClick={onHandleDialog}>
         <i class="fas fa-cheese"></i>
       </DialogButton>
-      <CheezeTxt>남궁권 Button</CheezeTxt>
+      <CheezeTxt>Cheeze Button</CheezeTxt>
       { Dialog && <Slider onHandleDialog={onHandleDialog}></Slider>}
     </Template>
   );

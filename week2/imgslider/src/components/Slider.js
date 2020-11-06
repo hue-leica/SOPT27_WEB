@@ -19,13 +19,13 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 600px;
-    width: 80%;
+    height: 500px;
+    width: 60%;
     background: white;
 `;
 const ImageList = styled.div`
-    width: 400px;
-    hight: 400px;
+    width: 250px;
+    hight: 250px;
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -43,7 +43,7 @@ const LeftButton = styled.div`
 `;
 const RightButton = styled.div`
     position: absolute;
-    left:360px;
+    left:210px;
     transform: rotate(180deg);
     cursor: pointer;
     color: white;
@@ -54,19 +54,15 @@ const RightButton = styled.div`
 const List = [
     {
         "idx" : 1,
-        "src" : "http://localhost:3000/images/kone1.png"
+        "src" : "http://localhost:3000/images/cheeze1.jpeg"
     },
     {
         "idx" : 2,
-        "src" : "http://localhost:3000/images/kone2.png"
+        "src" : "http://localhost:3000/images/cheeze2.jpeg"
     },
     {
         "idx" : 3,
-        "src" : "http://localhost:3000/images/kone3.png"
-    },
-    {
-        "idx" : 4,
-        "src" : "http://localhost:3000/images/kone4.png"
+        "src" : "http://localhost:3000/images/cheeze3.jpeg"
     }
 ]
 const CloseButton = styled.button`
@@ -87,7 +83,7 @@ function Slider({onHandleDialog}) {
         }
     }
     const onClickRightButton = () => {
-        if(choiceIdx != 4){
+        if(choiceIdx != 3){
             setChoiceIdx(choiceIdx+1);
         }
     }
@@ -111,8 +107,8 @@ function Slider({onHandleDialog}) {
                         ))
                     }
                     <RightButton onClick={onClickRightButton}>
-                    <i className="fas fa-chevron-circle-left fa-2x right"></i>
-                </RightButton>
+                        <i className="fas fa-chevron-circle-left fa-2x right"></i>
+                    </RightButton>
                 </ImageList>
             </Wrapper>
         </DialogTemplate>

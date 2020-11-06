@@ -2,12 +2,13 @@ import React from 'react'
 import styled, { css } from 'styled-components';
 
 const ImageTemplate = styled.img`
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     border-radius: 10%;
     ${props =>
         css`
-            transform: translate(-${(props.choice-1)*400}px,0px);
+            transform: translate(-${(props.choice-1)*250}px,0px);
+            transition: 1s;
         `
     }
 `;

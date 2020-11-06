@@ -78,10 +78,10 @@ toggle.addEventListener("click", (event) => {
   const card = document.getElementById("card");
   const avatar = document.getElementById("avatar");
 
-  console.log("repo : ",repo);
   if(body.style.background !== "white"){
     body.style.background = "white";
     toggle.style.transform = "rotate(180deg)";
+    toggle.style.color = "black";
     input.style.background = "white";
     input.style.color = "black";
     input.style.border = "solid";
@@ -97,6 +97,7 @@ toggle.addEventListener("click", (event) => {
   }else{
     body.style.background = "#1b1d21";
     toggle.style.transform = "rotate(360deg)";
+    toggle.style.color = "white";
     input.style.background = "24272b";
     input.style.color = "#b6b7b8";
     input.style.border = "none";
