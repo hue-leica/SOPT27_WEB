@@ -20,6 +20,7 @@
     &.name {
         font-size: 42px;
         font-weight: 700;
+        width: 600px;
     }
 
     .content-title {
@@ -33,10 +34,14 @@
     }
 
     .content-input {
+        width: 300px;
         cursor: pointer;
         color: #444;
         font-weight: 600;
         font-size: 16px;
+    }
+    .content-image {
+        width: 100%;
     }
 }
 
