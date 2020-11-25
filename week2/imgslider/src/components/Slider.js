@@ -30,7 +30,6 @@ const ImageList = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow: hidden;
 `;
 const LeftButton = styled.div`
     position: absolute;
@@ -105,7 +104,7 @@ function Slider({onHandleDialog}) {
                             choice={choiceIdx}>
                             </Image>
                         ))
-                    }
+                    } 
                     <RightButton onClick={onClickRightButton}>
                         <i className="fas fa-chevron-circle-left fa-2x right"></i>
                     </RightButton>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ResultComponent from '../components/ResultComponent';
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 function ResultContainer() {
 
