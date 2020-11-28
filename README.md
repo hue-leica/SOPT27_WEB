@@ -11,3 +11,7 @@
 # [ 4주차 과제 ]
 ### Notion(1)
 ![](https://images.velog.io/images/neity16/post/239dc869-7075-47d3-88f7-fb5abc59c70e/notion(1).gif)
+
+# [ 6주차 과제 ]
+### Notion(2)
+![](https://images.velog.io/images/neity16/post/9341bbad-7f91-41fc-9122-ac2238c0a789/ezgif.com-gif-maker%20(4).gif)
